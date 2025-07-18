@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Github Url Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="container">
+      <hgroup>
+        <h1>Github URL Generator</h1>
+        <p>Get your GitHub link URL from just your username</p>
+      </hgroup>
+    </header>
+    <main class="container">
+      <fieldset>
+        <input
+          type="text"
+          id="githubinput"
+          placeholder="Enter GitHub username"
+        />
+        <input type="submit" id="genaratorbtn" value="Generate URL" />
+      </fieldset>
+      <div id="app"></div>
+    </main>
+    <footer class="container neog-footer"></footer>
+
+    <script>
+      function getGithubUrl(githubuser) {
+        return "http://github.com/" + githubuser;
+      }
+
+      function handleGenaratorClick() {
+        const githubUrl = getGithubUrl(inputElement.value);
+        appElement.innerText = githubUrl;
+      }
+
+      const inputElement = document.getElementById("githubinput");
+      const buttonElement = document.getElementById("genaratorbtn");
+      const appElement = document.getElementById("app");
+
+      buttonElement.addEventListener("click", handleGenaratorClick);
+    </script>
+  </body>
+</html>
