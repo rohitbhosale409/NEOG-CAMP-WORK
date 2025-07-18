@@ -16,7 +16,7 @@ I started this challenge to:
 
 ## 📅 My Progress Tracker – Day-wise Coding 🎥💻
 
-> 📌 [Complete Playlist](https://codesandbox.io/dashboard/drafts?workspace=ws_JmNcSBizAbzhTpexqnN4Lf)
+> 📌 [codesandbox link](https://codesandbox.io/dashboard/drafts?workspace=ws_JmNcSBizAbzhTpexqnN4Lf)
 
 | Day | Video Link 🎥 | Code Link 💻 |
 |-----|--------------|-------------|
