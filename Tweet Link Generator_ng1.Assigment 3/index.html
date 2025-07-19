@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tweet Link Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="container">
+      <hgroup>
+        <h1>Tweet Link Generator</h1>
+        <p>Generate a custom Tweet link</p>
+      </hgroup>
+    </header>
+
+    <main class="container">
+      <fieldset>
+        <input
+          type="text"
+          id="messageInput"
+          placeholder="Enter your tweet message"
+        />
+        <input type="submit" id="generateBtn" value="Generate Tweet Link" />
+      </fieldset>
+      <div id="app"></div>
+    </main>
+
+    <footer class="container neog-footer"></footer>
+
+    <script>
+      function generateTweetLink(message) {
+        const encodedMsg = encodeURIComponent(message.trim());
+        return "https://twitter.com/intent/tweet?text=" + encodedMsg;
+      }
+
+      function handleGeneratorClick() {
+        const message = document.getElementById("messageInput").value;
+        const tweetLink = generateTweetLink(message);
+        const appElement = document.getElementById("app");
+        appElement.innerHTML = `<a href="${tweetLink}" target="_blank">${tweetLink}</a>`;
+      }
+
+      document
+        .getElementById("generateBtn")
+        .addEventListener("click", handleGeneratorClick);
+    </script>
+  </body>
+</html>
