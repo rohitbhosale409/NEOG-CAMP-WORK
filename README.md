@@ -20,9 +20,9 @@ I started this challenge to:
 
 | Day | code Link 🎥 | output Link 💻 |
 |-----|--------------|-------------|
-| Day 1 |  [Code](https://github.com/rohitbhosale/day1-code) | [output](https://github.com/rohitbhosale/day1-code)
-| Day 2 |  [Code](https://github.com/rohitbhosale/day2-code) | [output](https://github.com/rohitbhosale/day1-code)
-| Day 3 |  [Code](https://github.com/rohitbhosale/day3-code) | [output](https://github.com/rohitbhosale/day1-code)
+| Day 1 |  [Code](https://codesandbox.io/p/sandbox/sad-lake-85986g) | [output](https://85986g.csb.app/)
+| Day 2 |  [Code](https://codesandbox.io/p/sandbox/ng1a-3-sh9369) | [output](https://sh9369.csb.app/)
+| Day 3 |  [Code](https://codesandbox.io/p/sandbox/trusting-kare-c7m3ys) | [output](https://c7m3ys.csb.app/)
 | Day 4 |  [Code](https://github.com/rohitbhosale/day4-code) | [output](https://github.com/rohitbhosale/day1-code)
 | Day 5 |  [Code](https://github.com/rohitbhosale/day5-code) | [output](https://github.com/rohitbhosale/day1-code)
 | ... | ... | ... |
