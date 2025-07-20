@@ -18,13 +18,13 @@ I started this challenge to:
 
 > 📌 [codesandbox link](https://codesandbox.io/u/rohitbhosale409)
 
-| Day | Video Link 🎥 | Code Link 💻 |
+| Day | code Link 🎥 | output Link 💻 |
 |-----|--------------|-------------|
-| Day 1 |  [Code](https://github.com/rohitbhosale/day1-code) |
-| Day 2 |  [Code](https://github.com/rohitbhosale/day2-code) |
-| Day 3 |  [Code](https://github.com/rohitbhosale/day3-code) |
-| Day 4 |  [Code](https://github.com/rohitbhosale/day4-code) |
-| Day 5 |  [Code](https://github.com/rohitbhosale/day5-code) |
+| Day 1 |  [Code](https://github.com/rohitbhosale/day1-code) | [output](https://github.com/rohitbhosale/day1-code)
+| Day 2 |  [Code](https://github.com/rohitbhosale/day2-code) | [output](https://github.com/rohitbhosale/day1-code)
+| Day 3 |  [Code](https://github.com/rohitbhosale/day3-code) | [output](https://github.com/rohitbhosale/day1-code)
+| Day 4 |  [Code](https://github.com/rohitbhosale/day4-code) | [output](https://github.com/rohitbhosale/day1-code)
+| Day 5 |  [Code](https://github.com/rohitbhosale/day5-code) | [output](https://github.com/rohitbhosale/day1-code)
 | ... | ... | ... |
 
 
